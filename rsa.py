@@ -19,3 +19,5 @@ print("hexmessage to ascii give us flag%s") % hexmessage
 
 secret=bytes.fromhex(hexmessage).decode('utf-8')
 
+print(secret)
+
