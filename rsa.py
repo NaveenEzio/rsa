@@ -17,7 +17,5 @@ decimalmessage = pow(c,d,n)
 hexmessage= hex(decimalmessage)
 print("hexmessage to ascii give us flag%s") % hexmessage
 
-secret=bytes.fromhex(hexmessage).decode('utf-8')
 
-print(secret)
 
